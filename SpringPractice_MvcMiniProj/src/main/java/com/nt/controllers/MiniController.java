@@ -38,7 +38,7 @@ public class MiniController {
 		lst.forEach(l->System.out.println(l));
 		mp.put("culist", lst);
 		return "show_user";
-	}
+	} 
 	
 	@GetMapping("/registeruser")
 	public String registercustomer(@ModelAttribute("cust") CustomerClass cu) {
