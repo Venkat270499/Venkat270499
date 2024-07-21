@@ -28,7 +28,7 @@ public class MiniController {
 	@GetMapping("/")
 	public String welocomePage() {
 		return "welcome";
-	}
+	}  
 	
 	@GetMapping("/showusers")
 	public String showuserspage(Map<String, Object> mp) {
