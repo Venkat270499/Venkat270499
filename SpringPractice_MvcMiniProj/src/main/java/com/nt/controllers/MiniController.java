@@ -25,6 +25,7 @@ public class MiniController {
 	@Autowired
 	ServiceClass sc;
 	
+	
 	@GetMapping("/")
 	public String welocomePage() {
 		return "welcome"; 
