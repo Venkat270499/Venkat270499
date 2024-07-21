@@ -71,6 +71,7 @@ public class MiniController {
 	public String editCustomer(@ModelAttribute("cust") CustomerClass cu,@RequestParam("no") int no) {
 		CustomerClass custcu=sc.findCustById(no);
 		BeanUtils.copyProperties(custcu, cu);	
+		System.out.println("hey Venkat");
 		return "Edit_Page";
 	}
 	
