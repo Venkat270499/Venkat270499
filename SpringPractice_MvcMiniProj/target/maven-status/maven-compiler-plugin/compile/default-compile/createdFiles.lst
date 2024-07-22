@@ -1,0 +1,6 @@
+com\nt\controllers\MiniController.class
+com\nt\model\CustomerClass.class
+com\nt\repository\ICustomerRepo.class
+com\nt\service\ServiceClass.class
+com\nt\ServletInitializer.class
+com\nt\SpringPracticeMvcMiniProjApplication.class
