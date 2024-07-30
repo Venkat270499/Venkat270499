@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>SpringPractice_MvcMiniProj</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>SpringPractice_MvcMiniProj</name>
 	<description>MvcMiniProject</description>
 	<properties>
